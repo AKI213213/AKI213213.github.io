@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap'); */
-@import './google-fonts.css';
+@import '/AKI213213/AKI213213.github.io/edit/main/css/google-fonts.css';
 
 * {
   margin: 0;
@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #fbeded;
+  background-color: #ffffff;
 }
 
 .container {
