@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>输入正确的密码</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    /* 将 h2 往上移动 */
+    h1 {
+      margin-top: -600px;  /* 或者使用 position 和 top */
+    }
+  </style>
+  <script>
+    // 添加跳转功能，接收 URL 作为参数
+    function navigateToPage(url) {
+      window.location.href = url;  // 跳转到指定的页面 URL
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>请点击选择密码的第 一 个数字</h1>
+    <!-- 为每个卡片绑定点击事件，并设置不同的跳转页面 -->
+    <div class="card" style="--i: -4;" onclick="navigateToPage('index.html')">1</div>
+    <div class="card" style="--i: -3;" onclick="navigateToPage('index.html')">2</div>
+    <div class="card" style="--i: -2;" onclick="navigateToPage('index.html')">3</div>
+    <div class="card" style="--i: -1;" onclick="navigateToPage('index.html')">4</div>
+    <div class="card" style="--i: 0;" onclick="navigateToPage('index.html')">5</div>
+    <div class="card" style="--i: 1;" onclick="navigateToPage('code2.html')">6</div>
+    <div class="card" style="--i: 2;" onclick="navigateToPage('index.html')">7</div>
+    <div class="card" style="--i: 3;" onclick="navigateToPage('index.html')">8</div>
+    <div class="card" style="--i: 4;" onclick="navigateToPage('index.html')">9</div>
+  </div>
+</body>
+</html>
